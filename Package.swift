@@ -9,12 +9,10 @@ let package = Package(
             targets: ["Lightbox"]),
     ],
     dependencies: [
-      .package(url: "https://github.com/hyperoslo/Imaginary", .branch("master"))
     ],
     targets: [
         .target(
             name: "Lightbox",
-            dependencies: ["Imaginary"],
             path: "Source"
             )
     ],
